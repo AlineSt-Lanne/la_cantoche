@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.presentation-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--dark-orange);
+}
+
+.presentation-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2rem;
+    margin-top: 6rem;
+}
+
+.bienvenue-text {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--white);
+    padding: 0.5rem;
+}
+
+.title-app {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--white);
+    padding: 0.5rem;
+}
+
+.div-image-presentation {
+    display: flex;
+    justify-content: center;
+}
+
+.image-presentation {
+    width: 70%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.presentation-description {
+    text-align: center;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--white);
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+.button-presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

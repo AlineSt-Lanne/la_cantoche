@@ -1,11 +1,11 @@
-.buttonintro {
+.buttoncreateaccount {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60vw;
     height: 15vw;
-    background-color: var(--dark-blue);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--dark-blue);
     font-family: var(--font);
     font-style: normal;
     font-weight: 700;
