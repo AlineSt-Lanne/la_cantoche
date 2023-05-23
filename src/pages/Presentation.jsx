@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles/Presentation.css";
 import imagekids from "../assets/3d-casual-kids.png";
 import ButtonIntro from "../components/Presentation/ButtonIntro";
@@ -18,7 +19,9 @@ function Presentation() {
         votre enfant à l'école.
       </div>
       <div className="button-presentation">
-        <ButtonIntro style={{ cursor: "pointer" }} />
+        <Link to="/loginconnect">
+            <ButtonIntro style={{ cursor: "pointer" }} />
+        </Link>
       </div>
     </div>
   );
