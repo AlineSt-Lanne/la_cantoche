@@ -1,0 +1,91 @@
+.createaccount-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background);
+}
+
+.createaccount-form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputemail, .inputpassword {
+    width: 85vw;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--white);
+    border: 2px solid var(--dark-blue);
+    padding-left: 20px;
+    margin-bottom: 40px;
+    color: var(--black);
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: var(--grey);
+    font-family: var(--font);
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  .createaccount-separation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .separation-trait1, .separation-trait2 {
+    border: 1px solid var(--grey);
+    width: 140px;
+    height: 0px;
+    border-radius: 5px;
+  }
+
+  .separation-text, .socialnetworks-text {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    padding: 1rem;
+    color: var(--grey);
+  }
+
+  .createaccount-socialnetworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .svg-icons-gmail, .svg-icons-apple, .svg-icons-apple {
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .createaccount-texte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .createaccount-texte-question {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--grey);
+  }
+
+  .createaccount-texte-connect {
+    font-family: var(--font);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    color: var(--dark-blue);
+    margin-left: 0.5rem;
+    text-decoration: underline;
+  }

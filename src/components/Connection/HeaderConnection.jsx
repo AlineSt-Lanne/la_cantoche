@@ -1,8 +1,8 @@
 import React from "react";
-import "./styles/Header.css";
+import "./styles/HeaderConnection.css";
 import ButtonReturn from "./ButtonReturn";
 
-function Header() {
+function HeaderConnection() {
   return (
     <div className="container-header">
         <div className="container-header-orange">
@@ -17,4 +17,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderConnection;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/Connection.css";
 import { Link } from "react-router-dom";
-import Header from "../components/Connection/Header";
+import HeaderConnection from "../components/Connection/HeaderConnection";
 import ButtonConnection2 from "../components/Connection/ButtonConnection2";
 import { FaGoogle } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -11,7 +11,7 @@ function Connection() {
   return (
     <div className="connection-container">
       <div className="connection-header">
-        <Header />
+        <HeaderConnection />
       </div>
       <div className="connection-form">
         <form className="connection-form-input">
