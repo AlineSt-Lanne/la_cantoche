@@ -1,0 +1,11 @@
+.buttonreturn {
+    background-color: var(--dark-orange);
+    border: none;
+  }
+
+.svg-icons-return {
+  color: var(--white);
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}

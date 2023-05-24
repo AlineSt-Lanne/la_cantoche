@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.container-header {
+    height: 50vw;
+    width: 100vw;
+}
+
+.container-header-orange {
+    background-color: var(--dark-orange);
+    height: 30vw;
+    width: 100vw;
+    border-radius: 30px;
+}
+
+.container-header-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 27px 57px;
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    left: 45px;
+    top: 80px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.header-title {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    color: var(--black);
+}
