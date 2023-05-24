@@ -33,7 +33,9 @@ function CreateAccount() {
             name="password"
             id="password"
             placeholder="Confirmez votre mot de passe" />
-            <ButtonValidate />
+            <Link to="/home">
+              <ButtonValidate style={{ cursor: "pointer" }} />
+            </Link>
         </form>
       </div>
       <div className="createaccount-separation">

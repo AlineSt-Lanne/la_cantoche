@@ -27,7 +27,9 @@ function Connection() {
             name="password"
             id="password"
             placeholder="Entrez votre mot de passe" />
-            <ButtonConnection2 />
+            <Link to="/home">
+              <ButtonConnection2 style={{ cursor: "pointer" }} />
+            </Link>
         </form>
       </div>
       <div className="connection-separation">
