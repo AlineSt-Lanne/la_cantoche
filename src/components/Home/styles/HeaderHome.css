@@ -9,7 +9,7 @@
     background-color: var(--dark-orange);
     height: 30vw;
     width: 100vw;
-    border-radius: 30px;
+    border-radius: 0px 0px 30px 30px;
 }
 
 .container-headerhome-title {

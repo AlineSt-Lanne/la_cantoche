@@ -4,6 +4,7 @@ import LoginConnect from "./LoginConnect";
 import Connection from "./Connection";
 import CreateAccount from "./CreateAccount";
 import Home from "./Home";
+import Profile from "./Profile";
 
 export default function Body() {
   return (
@@ -15,6 +16,7 @@ export default function Body() {
           <Route path="/connection" element={<Connection />} />
           <Route path="/createaccount" element={<CreateAccount />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/profile" element={<Profile />} />
         </Routes>
       </Router>
     </div>

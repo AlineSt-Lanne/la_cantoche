@@ -1,0 +1,10 @@
+.container-headerprofile {
+    height: 50vw;
+    width: 100vw;
+    background-color: var(--dark-orange);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.image-titouan {
+    width: 25%;
+}
