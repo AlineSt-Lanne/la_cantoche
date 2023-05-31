@@ -1,0 +1,17 @@
+.container-navbar {
+    width: 90vw;
+    height: 4.5rem;
+    background-color: var(--dark-blue);
+    border-radius: 35px;
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.59));;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.svg-icons-home, .svg-icons-utensils, .svg-icons-cook, .svg-icons-envelope, .svg-icons-profile {
+    color: var(--white);
+    font-size: 2.5rem;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.home-container {
+    height: 175vh;
+    width: 100vw;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container-cardnutrition {
+    margin-top: 2rem;
+}
+
+.home-container-kideattoday {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.home-title-sendmenu {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--black);
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.home-container-sendmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
