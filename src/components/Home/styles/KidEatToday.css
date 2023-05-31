@@ -1,0 +1,98 @@
+
+.container-kideattoday {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    padding: 1.5rem;
+    border-radius: 25px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container-kideattoday-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.kideattoday-title {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.image-title-kideattoday {
+    width: 15%;
+    position: absolute;
+    right: 20px;
+    top: 890px;
+}
+
+.container-kideattoday-starter, .container-kideattoday-meal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.container-kideattoday-dessert {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.infos-starter, .infos-meal, .infos-dessert {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-kideattoday-starter, .title-kideattoday-meal, .title-kideattoday-dessert {
+    font-family: var(--font);
+}
+
+.title-kideattoday-starter {
+    margin-left: 1.2rem;
+}
+
+.title-kideattoday-meal {
+    margin-left: 0.5rem;
+}
+
+.title-kideattoday-dessert {
+    margin-left: 0.8rem;
+}
+
+.info-kideattoday-starter, .info-kideattoday-meal, .info-kideattoday-dessert {
+    font-family: var(--font);
+}
+
+.info-kideattoday-starter {
+    color: rgb(146, 0, 0);
+    margin-left: 3rem;
+}
+
+.info-kideattoday-meal {
+    color: rgb(255, 94, 35);
+    margin-left: 4.1rem;
+}
+
+.info-kideattoday-dessert {
+    color: green;
+    margin-left: 2.4rem;
+}
+
+.image-kideattoday-starter {
+    width: 19px;
+}
+
+.image-kideattoday-meal {
+    width: 32px
+}
+
+.image-kideattoday-dessert {
+    width: 28px
+}
