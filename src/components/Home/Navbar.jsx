@@ -22,7 +22,7 @@ function Navbar() {
         <NavLink to="/home">
             <FaEnvelope className="svg-icons-envelope" />
         </NavLink>
-        <NavLink to="/home">
+        <NavLink to="/profile">
             <IoMdContact className="svg-icons-profile" />
         </NavLink>
     </div>
