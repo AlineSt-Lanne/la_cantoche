@@ -19,7 +19,7 @@ function Navbar() {
         <NavLink to="/home">
             <GiCook className="svg-icons-cook" />
         </NavLink>
-        <NavLink to="/home">
+        <NavLink to="/contact">
             <FaEnvelope className="svg-icons-envelope" />
         </NavLink>
         <NavLink to="/profile">

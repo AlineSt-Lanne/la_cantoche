@@ -1,0 +1,42 @@
+.contact-container {
+    width: 100vw;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-cantine-form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputemailcantine, .inputobjet {
+    width: 85vw;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--white);
+    border: 2px solid var(--dark-blue);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+
+.inputmessage {
+    width: 85vw;
+    height: 250px;
+    border-radius: 20px;
+    background-color: var(--white);
+    border: 2px solid var(--dark-blue);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: var(--black);
+}
+
+::placeholder {
+    font-size: 1rem;
+    color: var(--grey);
+    font-family: var(--font);
+    font-style: italic;
+  }
