@@ -4,6 +4,10 @@ import LoginConnect from "./LoginConnect";
 import Connection from "./Connection";
 import CreateAccount from "./CreateAccount";
 import Home from "./Home";
+import Menus from "./Menus";
+import Tuesday from "./Tuesday";
+import Thursday from "./Thursday";
+import Friday from "./Friday";
 import Profile from "./Profile";
 
 export default function Body() {
@@ -16,6 +20,10 @@ export default function Body() {
           <Route path="/connection" element={<Connection />} />
           <Route path="/createaccount" element={<CreateAccount />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/menu-monday" element={<Menus />} />
+          <Route path="/menu-tuesday" element={<Tuesday />} />
+          <Route path="/menu-thursday" element={<Thursday />} />
+          <Route path="/menu-friday" element={<Friday />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
       </Router>

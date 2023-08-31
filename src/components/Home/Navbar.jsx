@@ -13,7 +13,7 @@ function Navbar() {
         <NavLink to="/home">
             <FaHome className="svg-icons-home" />
         </NavLink>
-        <NavLink to="/home">
+        <NavLink to="/menu-monday">
             <FaUtensils className="svg-icons-utensils" />
         </NavLink>
         <NavLink to="/home">
