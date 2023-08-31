@@ -16,7 +16,7 @@ function Navbar() {
         <NavLink to="/menu-monday">
             <FaUtensils className="svg-icons-utensils" />
         </NavLink>
-        <NavLink to="/home">
+        <NavLink to="/createmenu">
             <GiCook className="svg-icons-cook" />
         </NavLink>
         <NavLink to="/contact">

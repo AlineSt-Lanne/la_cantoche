@@ -1,0 +1,39 @@
+.container-cardcreatemenu {
+    width: 85vw;
+    border-radius: 20px;
+    background-color: var(--white);
+    border: 2px solid var(--dark-blue);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card-createmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createmenu-title {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.createmenu-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputcreatemenu {
+    width: 70vw;
+    height: 60px;
+    border-radius: 50px;
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+    padding: 10px;
+    margin-bottom: 20px;
+    color: var(--black);
+}
