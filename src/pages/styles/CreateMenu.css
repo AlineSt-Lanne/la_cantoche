@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.createmenu-container {
+    width: 100vw;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createmenu-infos {
+    width: 85vw;
+    height: 160px;
+    border-radius: 20px;
+    background-color: var(--white);
+    border: 2px solid var(--dark-blue);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.createmenu-text {
+    font-size: 1.2rem;
+    color: var(--black);
+    padding: 10px;
+}

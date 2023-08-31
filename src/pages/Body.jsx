@@ -8,6 +8,7 @@ import Menus from "./Menus";
 import Tuesday from "./Tuesday";
 import Thursday from "./Thursday";
 import Friday from "./Friday";
+import CreateMenu from "./CreateMenu";
 import Contact from "./Contact";
 import Profile from "./Profile";
 
@@ -25,6 +26,7 @@ export default function Body() {
           <Route path="/menu-tuesday" element={<Tuesday />} />
           <Route path="/menu-thursday" element={<Thursday />} />
           <Route path="/menu-friday" element={<Friday />} />
+          <Route path="/createmenu" element={<CreateMenu />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
