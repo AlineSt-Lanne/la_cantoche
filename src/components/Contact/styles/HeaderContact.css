@@ -40,3 +40,33 @@
     font-weight: 700;
     color: var(--black);
 }
+
+
+@media screen and (min-width: 769px) {
+    .container-headercontact {
+        height: auto;
+    }
+
+    .container-headercontact-orange {
+        height: 15vw;
+        border-radius: 0 0 50px 50px;
+        margin-bottom: 100px;
+    }
+
+    .container-headercontact-title {
+        width: 600px;
+        height: 70px;
+        left: 340px;
+        top: 170px;
+    }
+
+    .image-headercontact {
+        width: 8%;
+        left: 510px;
+        top: -30px;
+    }
+    
+    .headercontact-title {
+        font-size: 1.5rem;
+    }
+}

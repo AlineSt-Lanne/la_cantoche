@@ -4,13 +4,13 @@ import ButtonReturn from "./ButtonReturn";
 
 function HeaderConnection() {
   return (
-    <div className="container-header">
-        <div className="container-header-orange">
-            <div className="header-arrow-return">
+    <div className="container-headerconnection">
+        <div className="container-headerconnection-orange">
+            <div className="headerconnection-arrow-return">
                 <ButtonReturn />
             </div>
-            <div className="container-header-title">
-                <div className="header-title">SE CONNECTER</div>
+            <div className="container-headerconnection-title">
+                <div className="headerconnection-title">SE CONNECTER</div>
             </div>
         </div>
     </div>

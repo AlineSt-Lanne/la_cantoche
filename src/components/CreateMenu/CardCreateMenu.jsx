@@ -5,7 +5,9 @@ function CardCreateMenu() {
   return (
     <div className="container-cardcreatemenu">
         <div className="card-createmenu">
-            <div className="createmenu-title">MENU</div>
+            <div className="createmenu-title">
+                <h2>PROPOSITION DE MENU</h2>
+            </div>
             <div className="createmenu-form">
                 <form className="createmenu-form">
                     <input

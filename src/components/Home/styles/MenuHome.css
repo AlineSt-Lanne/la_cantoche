@@ -1,5 +1,5 @@
 
-.container-menu {
+.container-menuhome {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     padding: 1.5rem;
     border-radius: 25px;
     box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 70px;
 }
 
 .container-home-menu-title {
@@ -15,7 +16,7 @@
     flex-direction: row;
 }
 
-.menu-title {
+.menuhome-title {
     font-family: var(--font);
     font-style: normal;
     font-weight: 700;
@@ -25,10 +26,10 @@
 }
 
 .image-title-menu {
-    width: 72px;
+    width: 18%;
     position: absolute;
     right: 20px;
-    top: 170px;
+    top: 165px;
 }
 
 .container-menu-starter, .container-menu-meal{
@@ -70,4 +71,21 @@
 
 .image-dessert {
     width: 29px
+}
+
+@media screen and (min-width: 769px) {
+    .container-menuhome {
+        width: 35vw;
+        padding: 1.5rem;
+        border-radius: 25px;
+        box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.2);
+        margin-top: 0px;
+    }
+
+    .image-title-menu {
+        width: 90px;
+        position: absolute;
+        right: 450px;
+        top: 210px;
+    }
 }

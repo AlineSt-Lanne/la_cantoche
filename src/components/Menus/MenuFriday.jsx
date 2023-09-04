@@ -9,7 +9,9 @@ function MenuFriday() {
     return (
         <div className="container-menu">
         <div className="container-home-menu-title">
-            <div className="menu-title">VENDREDI</div>
+            <div className="menu-title">
+              <h2>VENDREDI</h2>
+            </div>
             <img className="image-title-menumonday" src={imagechef} alt="" />
         </div>
         <div className="container-home-menu">
