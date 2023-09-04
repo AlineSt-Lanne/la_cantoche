@@ -15,3 +15,10 @@
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.52);
     text-decoration: none;
 }
+
+@media screen and (min-width: 769px) {
+    .buttonsendmenu {
+        width: 20vw;
+        height: 5vw;
+    }
+}

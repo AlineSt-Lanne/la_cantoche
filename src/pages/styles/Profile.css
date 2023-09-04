@@ -2,6 +2,7 @@
 
 .profile-container {
     width: 100vw;
+    height: 100vh;
     background-color: var(--background);
     display: flex;
     flex-direction: column;
@@ -15,7 +16,29 @@
     font-size: 1.3rem;
     text-align: center;
     color: var(--black);
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.profile-restrictions-cantine {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--black);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-contact-cantine {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--black);
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -32,4 +55,25 @@
     font-style: normal;
     font-size: 1rem;
     text-align: center;
+}
+
+
+@media screen and (min-width: 769px) {
+
+    .profile-container {
+        height: auto;
+    }
+
+    .profile-title-cantine {
+        margin-top: -20px;
+    }
+
+    .profile-restrictions-cantine {
+        margin-top: 0px;
+    }
+
+    .profile-days-cantine {
+        margin-bottom: 40px;
+    }
+
 }

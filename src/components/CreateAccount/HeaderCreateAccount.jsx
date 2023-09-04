@@ -4,13 +4,13 @@ import ButtonReturn from "../Connection/ButtonReturn";
 
 function HeaderCreateAccount() {
   return (
-    <div className="container-header">
-        <div className="container-header-orange">
-            <div className="header-arrow-return">
+    <div className="container-headercreateaccount">
+        <div className="container-headercreateaccount-orange">
+            <div className="headercreateaccount-arrow-return">
                 <ButtonReturn />
             </div>
-            <div className="container-header-title">
-                <div className="header-title">CRÉEE SON COMPTE</div>
+            <div className="container-headercreateaccount-title">
+                <div className="headercreateaccount-title">CRÉER SON COMPTE</div>
             </div>
         </div>
     </div>

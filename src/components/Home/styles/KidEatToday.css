@@ -21,14 +21,14 @@
     font-weight: 700;
     font-size: 1rem;
     margin: 0.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 10px;
 }
 
 .image-title-kideattoday {
     width: 15%;
     position: absolute;
     right: 20px;
-    top: 890px;
+    top: 900px;
 }
 
 .container-kideattoday-starter, .container-kideattoday-meal {
@@ -95,4 +95,21 @@
 
 .image-kideattoday-dessert {
     width: 28px
+}
+
+@media screen and (min-width: 769px) {
+    .container-kideattoday {
+        width: 35vw;
+    }
+
+    .image-title-kideattoday {
+        width: 4%;
+        position: absolute;
+        right: 410px;
+        top: 970px;
+    }
+
+    .kideattoday-title {
+        margin-bottom: 20px;
+    }
 }

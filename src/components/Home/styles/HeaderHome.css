@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 .container-headerhome {
-    height: 50vw;
+    height: auto;
     width: 100vw;
 }
 
@@ -27,6 +27,7 @@
     top: 80px;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
 }
+
 .image-headerhome {
     position: absolute;
     width: 65px;
@@ -40,4 +41,36 @@
     font-style: normal;
     font-weight: 700;
     color: var(--black);
+}
+
+@media screen and (min-width: 769px) {
+    .container-headerhome {
+        height: auto;
+    }
+
+    .container-headerhome-orange {
+        height: 12vw;
+        border-radius: 0 0 50px 50px;
+        margin-bottom: 100px;
+    }
+
+    .container-headerhome-title {
+        width: 600px;
+        height: 70px;
+        position: absolute;
+        left: 340px;
+        top: 120px;
+    }
+
+    .image-headerhome {
+        position: absolute;
+        width: 95px;
+        height: 75px;
+        left: 500px;
+        top: -30px;
+    }
+    
+    .headerhome-title {
+        font-size: 1.5rem;
+    }
 }

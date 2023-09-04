@@ -16,19 +16,19 @@ function CreateAccount() {
       <div className="createaccount-form">
         <form className="createaccount-form-input">
           <input
-            className="inputemail"
+            className="inputemailcreateaccount"
             type="text"
             name="email"
             id="email"
             placeholder="Entrez votre email" />
           <input
-            className="inputpassword"
+            className="inputpasswordcreateaccount"
             type="text"
             name="password"
             id="password"
             placeholder="Entrez votre mot de passe" />
             <input
-            className="inputpassword"
+            className="inputpasswordcreateaccount"
             type="text"
             name="password"
             id="password"

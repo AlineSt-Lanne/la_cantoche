@@ -9,3 +9,11 @@
   margin-top: 1rem;
   margin-left: 1rem;
 }
+
+@media screen and (min-width: 769px) {
+  .svg-icons-return {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+}

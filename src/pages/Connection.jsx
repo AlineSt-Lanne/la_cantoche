@@ -16,13 +16,13 @@ function Connection() {
       <div className="connection-form">
         <form className="connection-form-input">
           <input
-            className="inputemail"
+            className="inputemailconnection"
             type="text"
             name="email"
             id="email"
             placeholder="Entrez votre email" />
           <input
-            className="inputpassword"
+            className="inputconnectionpassword"
             type="text"
             name="password"
             id="password"

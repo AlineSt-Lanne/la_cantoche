@@ -1,5 +1,6 @@
 .contact-container {
     width: 100vw;
+    height: 100vh;
     background-color: var(--background);
     display: flex;
     flex-direction: column;
@@ -40,3 +41,18 @@
     font-family: var(--font);
     font-style: italic;
   }
+
+  @media screen and (min-width: 769px) {
+
+    .contact-container {
+        height: auto;
+    }
+
+    .inputemailcantine, .inputobjet {
+    width: 47vw;
+    }
+
+    .inputmessage {
+    width: 47vw;
+}
+}

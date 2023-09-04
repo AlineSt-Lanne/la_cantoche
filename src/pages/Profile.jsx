@@ -11,15 +11,21 @@ function Profile() {
         <div className="profile-header">
           <HeaderProfile />
         </div>
-        <div className="profile-title-cantine">JOURS DE CANTINE</div>
+        <div className="profile-title-cantine">
+          <h2>JOURS DE CANTINE</h2>
+        </div>
         <div className="profile-days-cantine">
           <div className="days-cantine">Lundi - Mardi - Jeudi - Vendredi</div>
         </div>
-        <div className="profile-title-cantine">RESTRICTIONS ALIMENTAIRES</div>
+        <div className="profile-restrictions-cantine">
+          <h2>RESTRICTIONS ALIMENTAIRES</h2>
+        </div>
         <div className="container-profile-allergies">
           <AllergiesProfile />
         </div>
-        <div className="profile-title-cantine">PERSONNE(S) À CONTACTER</div>
+        <div className="profile-contact-cantine">
+          <h2>PERSONNE(S) À CONTACTER</h2>
+        </div>
           <div className="container-profile-contact">
             <ContactPerson />
           </div>

@@ -8,7 +8,9 @@ function HeaderContact() {
       <div className="container-headercontact-orange">
         <div className="container-headercontact-title">
           <img className="image-headercontact" src={imageenveloppe} alt="" />
-          <div className="headercontact-title">CONTACTER.LA.CANTINE</div>
+          <div className="headercontact-title">
+            <h1>CONTACTER LA CANTINE</h1>
+          </div>
         </div>
       </div>
     </div>

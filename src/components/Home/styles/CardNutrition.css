@@ -28,3 +28,12 @@
 .image-cardnutrition {
     width: 100%;
 }
+
+@media screen and (min-width: 769px) {
+    .container-cardnutrition {
+        width: 35vw;
+    }
+    .image-cardnutrition {
+        width: 70%;
+    }
+}

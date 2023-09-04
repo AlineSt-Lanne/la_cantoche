@@ -7,9 +7,11 @@ import imagedessert from "../../assets/milk.png";
 
 function MenuHome() {
     return (
-      <div className="container-menu">
+      <div className="container-menuhome">
         <div className="container-home-menu-title">
-            <div className="menu-title">MENU</div>
+            <div className="menuhome-title">
+              <h2>MENU</h2>
+            </div>
             <img className="image-title-menu" src={imagechef} alt="" />
         </div>
         <div className="container-home-menu">

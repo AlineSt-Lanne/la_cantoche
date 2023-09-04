@@ -3,7 +3,7 @@ import "./styles/Tuesday.css";
 import HeaderMenu from "../components/Menus/HeaderMenus";
 import MenusDays from "../components/Menus/MenusDays";
 import MenuTuesday from "../components/Menus/MenuTuesday";
-import CardNutrition from "../components/Menus/CardNutrition";
+import CardNutrition from "../components/Home/CardNutrition";
 import Navbar from "../components/Home/Navbar";
 
 function Menus() {

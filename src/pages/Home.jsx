@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/Home.css";
+import { Link } from "react-router-dom";
 import HeaderHome from "../components/Home/HeaderHome";
 import MenuHome from "../components/Home/MenuHome";
 import CardNutrition from "../components/Home/CardNutrition";
@@ -24,7 +25,9 @@ function Home() {
       </div>
       <div className="home-container-sendmenu">
         <div className="home-title-sendmenu">Et si vous nous partagiez votre recette?</div>
-        <ButtonSuggestMenu />
+        <Link to="/createmenu">
+          <ButtonSuggestMenu style={{ cursor: "pointer" }}/>
+        </Link>
       </div>
       <div className="home-container-navbar">
         <Navbar />

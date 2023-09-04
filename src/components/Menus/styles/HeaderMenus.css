@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 .container-headermenus {
-    height: 50vw;
+    height: auto;
     width: 100vw;
 }
 
@@ -39,4 +39,35 @@
     font-style: normal;
     font-weight: 700;
     color: var(--black);
+}
+
+@media screen and (min-width: 769px) {
+    .container-headermenus {
+        height: auto;
+    }
+
+    .container-headermenus-orange {
+        height: 12vw;
+        border-radius: 0 0 50px 50px;
+        margin-bottom: 100px;
+    }
+
+    .container-headermenus-title {
+        width: 600px;
+        height: 70px;
+        position: absolute;
+        left: 340px;
+        top: 120px;
+    }
+
+    .image-headermenus {
+        position: absolute;
+        width: 50px;
+        left: 520px;
+        top: -40px;
+    }
+
+    .headermenus-title {
+        font-size: 1.5rem;
+    }
 }

@@ -1,5 +1,4 @@
 .createaccount-container {
-    height: 100vh;
     width: 100vw;
     background-color: var(--background);
 }
@@ -10,7 +9,7 @@
     align-items: center;
 }
 
-.inputemail, .inputpassword {
+.inputemailcreateaccount, .inputpasswordcreateaccount {
     width: 85vw;
     height: 60px;
     border-radius: 50px;
@@ -70,6 +69,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    padding: 1rem;
   }
 
   .createaccount-texte-question {
@@ -88,4 +88,25 @@
     color: var(--dark-blue);
     margin-left: 0.5rem;
     text-decoration: underline;
+  }
+
+  @media screen and (min-width: 769px) {
+
+    .inputemailcreateaccount, .inputpasswordcreateaccount {
+      width: 50vw;
+      height: 80px;
+  }
+
+    .separation-trait1, .separation-trait2 {
+      width: 310px;
+    }
+
+    .svg-icons-gmail, .svg-icons-apple, .svg-icons-apple {
+      font-size: 3rem;
+      margin-right: 10px;
+    }
+
+    .createaccount-texte{
+      margin-top: 2rem;
+    }
   }

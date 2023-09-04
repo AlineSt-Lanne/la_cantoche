@@ -9,7 +9,9 @@ function KidEatToday() {
     return (
       <div className="container-kideattoday">
         <div className="container-kideattoday-title">
-            <div className="kideattoday-title">Qu'est ce que Titouan à manger aujourd'hui :</div>
+            <div className="kideattoday-title">
+                <h3>Qu'est ce que Titouan à manger aujourd'hui :</h3>
+            </div>
             <img className="image-title-kideattoday" src={imagekidsbox} alt="" />
         </div>
         <div className="container-kideattoday-infos">

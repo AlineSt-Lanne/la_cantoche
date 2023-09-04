@@ -15,6 +15,7 @@
     background-color: var(--white);
     border: 2px solid var(--dark-blue);
     padding-left: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
 }
 
@@ -22,4 +23,17 @@
     font-size: 1.2rem;
     color: var(--black);
     padding: 10px;
+}
+
+@media screen and (min-width: 769px) {
+
+    .createmenu-infos {
+        width: 55vw;
+        margin-top: 0px;
+    }
+
+    .createmenu-text {
+        font-size: 1.2rem;
+        padding: 20px;
+    }
 }

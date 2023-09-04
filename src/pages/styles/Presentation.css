@@ -62,3 +62,31 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (min-width: 769px) {
+
+    .presentation-container {
+        width: 100vw;
+        background-color: var(--dark-orange);
+    }
+
+    .presentation-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+
+    .image-presentation {
+        width: 23%;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .presentation-description {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+}
